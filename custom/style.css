@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "Helvetica* Condensed Bold";
+  src: url("e01144568eafaffb4a3214e36e22703b.eot");
+  /* IE9*/
+  src: url("e01144568eafaffb4a3214e36e22703b.eot?#iefix") format("embedded-opentype"), url("e01144568eafaffb4a3214e36e22703b.woff2") format("woff2"), url("e01144568eafaffb4a3214e36e22703b.woff") format("woff"), url("e01144568eafaffb4a3214e36e22703b.ttf") format("truetype"), url("e01144568eafaffb4a3214e36e22703b.svg#Helvetica* Condensed Bold") format("svg");
+  /* iOS 4.1- */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-fluid {
+  width: 90%;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.header {
+  background-image: url("./../img/headerbg.png");
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.header * {
+  color: white;
+}
+
+.header .navbar-custom .nav-item.active .nav-link,
+.header .navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+.header .navbar-custom .navbar-nav .nav-link {
+  color: white;
+  padding: 1rem 1rem;
+}
+
+.header .navbar-custom .navbar-brand,
+.header .navbar-custom .navbar-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.header .navbar-brand img {
+  width: 80%;
+}
+
+.header .navbar-toggler {
+  border: 1px solid white;
+  color: white;
+}
+
+.header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.header h1 {
+  font-family: "Helvetica* Condensed Bold";
+  color: white;
+  font-size: 60px;
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+
+.header h6 {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.header p {
+  max-width: 500px;
+  padding-bottom: 20%;
+  margin-bottom: -16px;
+}
+
+.header .divider {
+  height: 5px;
+  background-color: white;
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+i img {
+  width: 100px;
+  height: 100px;
+}
+
+.mycard {
+  text-align: center;
+  padding: 6% 0;
+}
+
+/* vision-above-area */
+.vision-above-area {
+  background-image: url("./../img/mycard.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  color: #515151;
+}
+
+.vision-above-area h3 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+/* vision and mission area code */
+.vision {
+  color: white;
+  background-color: black;
+}
+
+.vision .heading {
+  font-weight: bold;
+}
+
+.vision i img {
+  height: 30px;
+  width: 50px;
+}
+
+.vision .my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.vision .col-md-6 {
+  padding: 0;
+}
+
+.vision .container-fluid {
+  width: 100%;
+}
+
+.vision p, .vision .heading, .vision i img {
+  margin-left: 11%;
+}
+
+.vision p {
+  margin-right: 22px;
+}
+
+.vision .divider {
+  height: 6px;
+  width: 88%;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 5.1%;
+}
+
+/* mission-prorities */
+.mission-prorities {
+  background-image: url("./../img/mycard.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  color: #515151;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-bottom: 2%;
+}
+
+.mission-prorities i img {
+  width: 70px;
+  height: 70px;
+}
+
+.mission-prorities h2 {
+  color: black;
+  margin: 3% 0;
+}
+
+.mission-prorities .my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mission-prorities p {
+  size: 12px;
+  margin-top: 4%;
+}
+
+.tech {
+  color: white;
+  background-color: black;
+}
+
+.tech .my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.tech .col-md-6 {
+  padding: 0;
+}
+
+.tech .container-fluid {
+  width: 100%;
+}
+
+.tech i img {
+  width: 50px;
+  height: 50px;
+}
+
+.tech .heading {
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.tech .s1 {
+  margin-top: 2%;
+}
+
+.tech p {
+  font-size: 25px;
+  width: 90%;
+  margin-top: 8%;
+  margin-bottom: 12%;
+  padding-left: 5%;
+}
+
+.tech .list-item {
+  padding-left: 3%;
+}
+
+/* solution area */
+.solution {
+  background-image: url("./../img/mycard.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  color: #515151;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.solution i img {
+  width: 70px;
+  height: 70px;
+}
+
+.solution h2 {
+  color: black;
+  padding-top: 3%;
+}
+
+.solution .my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.solution p {
+  size: 1opx;
+}
+
+.solution .heading p {
+  margin-top: 0px;
+}
+
+/* Events */
+.event {
+  color: white;
+  background-color: black;
+}
+
+.event .my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.event .col-md-6 {
+  padding: 0;
+}
+
+.event .container-fluid {
+  width: 100%;
+}
+
+.event .heading {
+  font-weight: bold;
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.event p, .event .heading, .event i img {
+  margin-left: 11%;
+}
+
+/* footer area */
+.footer {
+  background-color: #181818;
+  color: white;
+  padding: 20px;
+  margin-bottom: -10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer img {
+  width: 40%;
+}
+
+.footer .link {
+  margin: 45px 0;
+}
+
+.footer .blogo {
+  margin: 40px 0;
+}
+
+.footer .divider {
+  height: 6px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: -21px;
+  margin-bottom: 21px;
+}
+
+/* copyright area */
+.copyright {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+.copyright p {
+  margin-bottom: -2px;
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (max-width: 43em) {
+  header h1 {
+    font-size: 6vw !important;
+  }
+  header h6 {
+    font-size: 4vw !important;
+  }
+  header p {
+    font-size: 2.5vw !important;
+  }
+  .vision .divider {
+    display: none;
+  }
+  .vision {
+    text-align: center !important;
+  }
+  .bblogo {
+    margin-left: -120px !important;
+  }
+  .list-item {
+    text-align: center !important;
+    margin-top: -20px !important;
+    margin-bottom: 14px;
+  }
+  .navbar-brand img {
+    width: 70% !important;
+  }
+  .container-fluid {
+    width: 100% !important;
+  }
+  .bg-nav {
+    background-color: black !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
